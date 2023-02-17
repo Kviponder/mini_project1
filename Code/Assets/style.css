@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    display: block;
+}
+head {
+    display: none;
+}
+header {
+    position: fixed;
+    border-bottom: 10px solid #AA8B56;
+    display:block
+}
+
+nav {
+    display:block;
+}
+.text-right {
+    text-align: right;
+}
+a {
+    color: white;
+}
+header, footer {
+    background-color: #395144;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+
+}
+#ul_1 {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin:auto;
+    gap: 20px;
+}
+.ul_deco {
+    text-decoration: none;
+}
+body {
+    position:relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #F0EBCE;
+    color: #ECE8DD;
+    
+}
+body {
+    display:block;
+    margin:8px
+}
+.text-center {
+text-align: center;
+color:#362706;
+font-weight: bold;
+}
+img {
+    display:block;
+    margin: 20px auto;
+}
+
+figcaption {
+    display: block;
+    color: black;
+}
+
+h1 {
+    display: block;
+    color:#362706;
+    padding-top: 20px;
+}
+main {
+    padding: 60px;
+    text-align: center;
+}
+
+.text-right1 {
+    text-align: right;
+    color:#362706;
+}
+
+#ul_2 {
+color: #362706;
+list-style: none;
+}
+h2 {
+    display: block;
+    margin:20px;
+    width: 500 px;
+   
+}
+form {
+    display:block;
+}
+form {
+    margin:0 auto;
+    width: 500 px;
+    padding: 10px;
+    border: 7px solid #DDAF94;
+}
+
+#input {
+    display:inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+    background-color: field;
+    appearance: auto;
+    text-align: start;
+    writing-mode: horizontal-tb;
+    text-rendering: auto;
+    -webkit-rtl-ordering: logical;
+    cursor:text;
+   text-transform:auto;
+}
+
+label {
+    cursor: auto;
+}
+section {
+    background-color: #DDAF94;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border: auto;
+    border-top: 5px solid orange;
+    padding: 10%;
+    width: 100% auto;
+}
+footer {
+    text-align: center;
+}
